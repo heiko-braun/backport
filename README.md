@@ -33,3 +33,20 @@ Backport relies on [`github-backport`](https://www.npmjs.com/package/github-back
 ### Webhooks
 
 - **Pull requests**: to detect when pull requests are merged or labeled.
+
+## Build instructions
+
+```
+yarn run build
+yarn run start
+```
+
+### Docker image
+
+To create and test the docker image, run:
+
+```
+docker build -t backport-bot .
+docker run -p 3000:3000 -it --rm --name backport-bot-app backport-bot
+
+```
