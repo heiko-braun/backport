@@ -1,5 +1,3 @@
-[![build status](https://img.shields.io/circleci/project/github/tibdex/backport.svg)](https://circleci.com/gh/tibdex/backport)
-
 # Goal
 
 Backport is a GitHub App, based on [Probot](https://probot.github.io/), to backport a pull request by simply adding a label to it. [Try it!](https://github.com/apps/backporting)
