@@ -2,3 +2,7 @@
 /coverage/
 /node_modules/
 /reports/
+/src/index.js
+/src/backport.test.js
+/src/backport.js
+/src/app.js
