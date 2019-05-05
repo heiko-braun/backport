@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "probot-serverless-now": "^1.0.1",
     "debug": "^4.1.1",
     "github-backport": "^1.0.1",
-    "shared-github-internals": "^1.0.0"
+    "probot-serverless-now": "^1.0.1",
+    "shared-github-internals": "^1.0.0",
+    "smee-client": "^1.1.0"
   },
   "description": "GitHub App to backport pull requests",
   "devDependencies": {
@@ -26,6 +27,9 @@
   "name": "backport",
   "private": true,
   "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./lib/index.js",
     "check-build": "tsc --build tsconfig.build.json",
     "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,md,ts,yml}\"",
     "test": "jest",

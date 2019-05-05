@@ -2,3 +2,8 @@
 /coverage/
 /node_modules/
 /reports/
+/src/index.js
+/src/backport.test.js
+/src/backport.js
+/src/app.js
+/backport-test.2019-05-05.private-key.pem
