@@ -10,4 +10,3 @@ It can backport [rebased and merged](https://help.github.com/en/github/collabora
 
 _Note:_ multiple backport labels can be added. For example, if a pull request has the labels `backport staging` and `backport production` it will be backported to both branches: `staging` and `production`.
 
-test change
